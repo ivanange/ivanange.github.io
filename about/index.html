@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html class="font-roboto" lang="en">
+
+	<head>
+		
+		<meta charset="UTF-8" lang="fr">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="canonical" href="/about/"/>
+		
+			<meta name="description" content="ooscisca, obsevatoire scientifique qui détails tout ce qui nécéssite de l'attention, mouvements sociaux, économiques, administratifs et plus encore" lang="fr">
+			<meta name="keywords" content="ooscisca, observatoire, nouvelles, opportunités, formtions, innovations, évènements" lang="fr">
+		
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+		</noscript>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+		
+			<link href="/assets/bundles/css/index.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+			<noscript>
+				<link rel="stylesheet" href="/assets/bundles/css/index.css">
+			</noscript>
+		
+
+		<title>
+			Gospel Jam |
+			À propos de nous
+		</title>
+	</head>
+
+	<body class="bg-white overflow-x-hidden antialiased">
+
+		
+			<script src="/assets/bundles/js/index.js" defer="true"></script>
+		
+
+		<div class="main h-screen flex flex-col">
+			
+				<div class="navbar py-3 w-full z-50 duration-300 bg-white border-b border-gray-50 shadow-sm">
+	<nav id="navbar" class="container mx-auto flex items-center w-full select-none" x-data="{ showMenu: false }">
+		<div class="relative flex flex-wrap items-center justify-between w-full mx-auto font-medium md:justify-center">
+			<a href="" class="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0 uppercase">
+				<span class="p-1 text-xl font-black leading-none text-white select-none">
+					<span class="text-gray-800">Gospel</span>
+					<span class="text-yellow-400">
+						.
+						<br>
+						jam
+					</span>
+				</span>
+			</a>
+			<div id="nav" class="absolute top-0 z-40 items-center hidden w-full h-full p-3 text-xl bg-gray-900 bg-opacity-50 md:text-sm lg:text-base md:w-3/4 md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex': showMenu, 'hidden': !showMenu }">
+				<div class="flex-col w-full h-full overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
+					<div class="flex flex-col items-center justify-center w-full h-full mt-12 text-center text-primary-500 md:text-gray-700 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+							<a href="/" class="inline-block px-4 py-2 mx-2 font-medium text-left md:px-0  md:hover:text-primary-500 lg:mx-3 md:text-center
+																																 hover:text-primary-800 md:text-gray-700 " >
+								Accueil
+							</a>
+							<a href="/about/" class="inline-block px-4 py-2 mx-2 font-medium text-left md:px-0  md:hover:text-primary-500 lg:mx-3 md:text-center
+																																 text-primary-500 "  aria-current="page" >
+								À propos
+							</a>
+							<a href="/team/" class="inline-block px-4 py-2 mx-2 font-medium text-left md:px-0  md:hover:text-primary-500 lg:mx-3 md:text-center
+																																 hover:text-primary-800 md:text-gray-700 " >
+								La Team
+							</a>
+							<a href="/success strory/" class="inline-block px-4 py-2 mx-2 font-medium text-left md:px-0  md:hover:text-primary-500 lg:mx-3 md:text-center
+																																 hover:text-primary-800 md:text-gray-700 " >
+								Success Strory
+							</a>
+					</div>
+				</div>
+			</div>
+			<div @click="showMenu = !showMenu" class="absolute right-0 z-50 flex flex-col items-end w-10 h-10 p-2 mr-4 rounded-full cursor-pointer md:hidden hover:bg-gray-900 hover:bg-opacity-10" :class="{ 'text-gray-400': showMenu, 'text-gray-100': !showMenu }">
+				<svg class="w-6 h-6" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" stroke="currentColor" x-cloak="">
+					<path d="M4 6h16M4 12h16M4 18h16"></path>
+				</svg>
+				<svg class="w-6 h-6" x-show="showMenu" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" x-cloak="">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+				</svg>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<script type="text/html" id="hit-template">
+	<div class="hit">
+		<p class="hit-name">
+			
+				{{#helpers.highlight}}
+					{ "attribute": "title" }
+				{{/helpers.highlight}}
+				{{#helpers.highlight}}
+					{ "attribute": "content" }
+				{{/helpers.highlight}}
+			
+		</p>
+	</div>
+</script>
+
+
+			
+
+			<div class="flex-grow overflow-auto">
+				
+				
+
+	<section class="text-gray-600 body-font bg-gray-50">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="w-fit mb-20 mx-auto">
+				<h1 class="sm:text-3xl md:text-4xl text-2xl font-semibold title-font mb-2 text-gray-900">
+					<span class="text-gray-800">La Vision</span>
+				</h1>
+				<div class="h-1 w-20 mx-auto bg-primary-500 rounded"></div>
+			</div>
+			<div class="flex flex-wrap justify-center items-start sm:-m-4 -mx-4 -mb-10 -mt-4">
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M415.5,311Q347,372,275,413.5Q203,455,135,396.5Q67,338,55.5,244.5Q44,151,125,104Q206,57,290.5,75Q375,93,429.5,171.5Q484,250,415.5,311Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute -top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						1
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Donec at odio lacus
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M427,344Q400,438,302.5,443.5Q205,449,137.5,393Q70,337,80.5,255Q91,173,149.5,120Q208,67,277,98.5Q346,130,400,190Q454,250,427,344Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						2
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Etiam eu fermentum velit
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M411.5,322Q365,394,283.5,427Q202,460,120.5,406Q39,352,73,266.5Q107,181,154,108Q201,35,288.5,63.5Q376,92,417,171Q458,250,411.5,322Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						3
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Phasellus vel viverra enim
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M427,344Q400,438,302.5,443.5Q205,449,137.5,393Q70,337,80.5,255Q91,173,149.5,120Q208,67,277,98.5Q346,130,400,190Q454,250,427,344Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						4
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Aenean laoreet
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M406,317.5Q328,385,236.5,408.5Q145,432,96,341Q47,250,91.5,151Q136,52,242.5,65Q349,78,416.5,164Q484,250,406,317.5Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute -top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						5
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Neque porro quisquam
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M410.5,324Q335,398,254,391Q173,384,127,317Q81,250,126,182Q171,114,270.5,78Q370,42,428,146Q486,250,410.5,324Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute -top-1 bottom-0 left-0 -right-2 text-white text-5xl flex items-center justify-center">
+						6
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						In eleifend ultrices risus
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="text-gray-600 body-font bg-gray-50">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="w-fit mb-20 mx-auto">
+				<h1 class="sm:text-3xl md:text-4xl text-2xl font-semibold title-font mb-2 text-gray-900">
+					<span class="text-gray-800">Notre Plateforme</span>
+				</h1>
+				<div class="h-1 w-20 mx-auto bg-primary-500 rounded"></div>
+			</div>
+			<div class="flex flex-wrap justify-center items-start sm:-m-4 -mx-4 -mb-10 -mt-4">
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M415.5,311Q347,372,275,413.5Q203,455,135,396.5Q67,338,55.5,244.5Q44,151,125,104Q206,57,290.5,75Q375,93,429.5,171.5Q484,250,415.5,311Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute -top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						1
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Donec at odio lacus
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M427,344Q400,438,302.5,443.5Q205,449,137.5,393Q70,337,80.5,255Q91,173,149.5,120Q208,67,277,98.5Q346,130,400,190Q454,250,427,344Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						2
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Etiam eu fermentum velit
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M411.5,322Q365,394,283.5,427Q202,460,120.5,406Q39,352,73,266.5Q107,181,154,108Q201,35,288.5,63.5Q376,92,417,171Q458,250,411.5,322Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						3
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Phasellus vel viverra enim
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M427,344Q400,438,302.5,443.5Q205,449,137.5,393Q70,337,80.5,255Q91,173,149.5,120Q208,67,277,98.5Q346,130,400,190Q454,250,427,344Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						4
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Aenean laoreet
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M406,317.5Q328,385,236.5,408.5Q145,432,96,341Q47,250,91.5,151Q136,52,242.5,65Q349,78,416.5,164Q484,250,406,317.5Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute -top-1 bottom-0 left-0 right-0 text-white text-5xl flex items-center justify-center">
+						5
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						Neque porro quisquam
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+				<div class="md:px-10 lg:px-6 py-6 md:w-1/2 lg:w-1/3 flex flex-col hover:bg-white rounded-lg duration-300">
+					<div class="w-28 h-28 mb-1 flex-shrink-0 mx-auto md:mx-auto relative">
+						<svg class="w-full h-full text-primary-500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+							<path id="blob"
+							d="M410.5,324Q335,398,254,391Q173,384,127,317Q81,250,126,182Q171,114,270.5,78Q370,42,428,146Q486,250,410.5,324Z"
+							fill="currentColor"></path>
+						</svg>
+						<span
+						class="text-center absolute -top-1 bottom-0 left-0 -right-2 text-white text-5xl flex items-center justify-center">
+						6
+					</span>
+					</div>
+					<div class="flex-grow flex flex-col items-center">
+						<h2 class="text-gray-900 text-2xl title-font font-bold mb-3 capitalize text-center md:text-center">
+						In eleifend ultrices risus
+					</h2>
+						<p class="leading-relaxed text-sm text-center text-gray-600">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet quam at mi accumsan,
+						consequat sodales urna imperdiet. Phasellus vel viverra enim. Donec at odio lacus. Cras dui
+						lectus, faucibus eget mauris sit amet, gravida sagittis enim. Suspendisse dignissim ac risus
+						eget scelerisque. In eleifend ultrices risus sed hendrerit.
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="relative py-20 overflow-hidden bg-yellow-50">
+		<div class="relative px-16 mx-auto max-w-7xl">
+			<p class="font-medium tracking-wide text-primary-500 uppercase">JAM Master class</p>
+			<h2 class="relative max-w-lg mt-5 mb-6 text-4xl font-semibold leading-tight lg:text-5xl">
+			Celebrating 10 years of
+			<br>
+				<span class="text-yellow-400">Anointed talents</span>
+			</h2>
+			<p class="w-full text-base text-left text-gray-500 md:max-w-md sm:text-lg lg:text-2xl ">
+			It was and wil always be all with you and for you, join the celebration !
+		</p>
+			<div
+			class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+
+				<!-- Image -->
+				<div
+				class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+					<img src="https://cdn.devdojo.com/images/december2020/productivity.png"
+					class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+				</div>
+
+				<!-- Content -->
+				<div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+					<h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+					Boost Productivity
+				</h2>
+					<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+					Build an atmosphere that creates productivity in your organization and your company culture.
+				</p>
+					<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+						<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+							<span
+							class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+								<span
+								class="text-sm font-bold">✓</span></span> Maximize productivity and growth
+					</li>
+						<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+							<span
+							class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+								<span
+								class="text-sm font-bold">✓</span></span> Speed past your competition
+					</li>
+						<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+							<span
+							class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+								<span
+								class="text-sm font-bold">✓</span></span> Learn the top techniques
+					</li>
+					</ul>
+				</div>
+				<!-- End  Content -->
+			</div>
+			<div
+			class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+
+				<!-- Content -->
+				<div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+					<h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+					Automated Tasks
+				</h2>
+					<p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+					Save time and money with our revolutionary services. We are the leaders in the industry.
+				</p>
+					<ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+						<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+							<span
+							class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+								<span
+								class="text-sm font-bold">✓</span></span> Automated task management workflow
+					</li>
+						<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+							<span
+							class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+								<span
+								class="text-sm font-bold">✓</span></span> Detailed analytics for your data
+					</li>
+						<li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+							<span
+							class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
+								<span
+								class="text-sm font-bold">✓</span></span> Some awesome integrations
+					</li>
+					</ul>
+				</div>
+				<!-- End  Content -->
+
+				<!-- Image -->
+				<div
+				class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+					<img src="https://cdn.devdojo.com/images/december2020/settings.png"
+					class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
+				</div>
+			</div>
+			<div class="relative flex flex-col justify-center md:flex-row md:space-x-4 mt-10">
+				<a href="#_"
+				class="group flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-yellow-400 rounded-md md:mb-0 hover:bg-yellow-500 duration-300 md:w-auto">
+				Start now
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1 group-hover:ml-2 duration-300"
+					viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+					stroke-linejoin="round">
+						<line x1="5" y1="12" x2="19" y2="12"></line>
+						<polyline points="12 5 19 12 12 19"></polyline>
+					</svg>
+				</a>
+				<a href="#_"
+				class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
+				Learn More
+			</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="text-gray-600 body-font">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="w-fit mb-20 mx-auto">
+				<h1 class="sm:text-3xl md:text-4xl text-2xl font-semibold title-font mb-2 text-gray-900">
+					<span class="text-gray-800">Worship Institute</span>
+				</h1>
+				<div class="h-1 w-20 mx-auto bg-primary-500 rounded"></div>
+			</div>
+			<div class="flex flex-wrap -m-4">
+				<div class="lg:w-1/3 sm:w-1/2 p-4">
+					<div class="flex relative">
+						<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+						src="https://dummyimage.com/600x360">
+						<div
+						class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+							<h2 class="tracking-widest text-sm title-font font-medium text-primary-500 mb-1">THE SUBTITLE
+						</h2>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+							<p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+							microdosing tousled waistcoat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-1/3 sm:w-1/2 p-4">
+					<div class="flex relative">
+						<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+						src="https://dummyimage.com/601x361">
+						<div
+						class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+							<h2 class="tracking-widest text-sm title-font font-medium text-primary-500 mb-1">THE SUBTITLE
+						</h2>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+							<p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+							microdosing tousled waistcoat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-1/3 sm:w-1/2 p-4">
+					<div class="flex relative">
+						<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+						src="https://dummyimage.com/603x363">
+						<div
+						class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+							<h2 class="tracking-widest text-sm title-font font-medium text-primary-500 mb-1">THE SUBTITLE
+						</h2>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+							<p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+							microdosing tousled waistcoat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-1/3 sm:w-1/2 p-4">
+					<div class="flex relative">
+						<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+						src="https://dummyimage.com/602x362">
+						<div
+						class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+							<h2 class="tracking-widest text-sm title-font font-medium text-primary-500 mb-1">THE SUBTITLE
+						</h2>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
+							<p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+							microdosing tousled waistcoat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-1/3 sm:w-1/2 p-4">
+					<div class="flex relative">
+						<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+						src="https://dummyimage.com/605x365">
+						<div
+						class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+							<h2 class="tracking-widest text-sm title-font font-medium text-primary-500 mb-1">THE SUBTITLE
+						</h2>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+							<p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+							microdosing tousled waistcoat.</p>
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-1/3 sm:w-1/2 p-4">
+					<div class="flex relative">
+						<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+						src="https://dummyimage.com/606x366">
+						<div
+						class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+							<h2 class="tracking-widest text-sm title-font font-medium text-primary-500 mb-1">THE SUBTITLE
+						</h2>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+							<p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+							microdosing tousled waistcoat.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="text-gray-600 body-font">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="w-fit mb-20 mx-auto">
+				<h1 class="sm:text-3xl md:text-4xl text-2xl font-semibold title-font mb-2 text-gray-900">
+					<span class="text-primary-500">Success</span>
+				stories
+			</h1>
+				<div class="h-1 w-20 mx-auto bg-primary-500 rounded"></div>
+			</div>
+
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+							class="inline-block w-8 h-8 text-yellow-400 mb-8" viewBox="0 0 975.036 975.036">
+								<path
+								d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+							</svg>
+							<p class="leading-relaxed text-lg">
+							Edison bulb retro cloud bread echo park, helvetica stumptown
+							taiyaki
+							taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki
+							vape DIY tote bag drinking
+							vinegar cronut adaptogen squid fanny pack vaporware.
+							Man bun next level coloring book skateboard four
+							loko knausgaard. Kitsch keffiyeh master cleanse
+							direct trade primary juice before they sold out gentrify
+							plaid gastropub normcore XOXO 90's pickled cprimary jean shorts.
+							Slow-carb next level shoprimaryitch ethical authentic,
+							yr scenester sriracha forage franzen organic drinking vinegar.
+						</p>
+							<span class="inline-block h-1 w-10 rounded bg-yellow-400 mt-8 mb-6"></span>
+							<h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">persona</h2>
+							<p class="text-gray-500">Elisabeth Beneth</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+							class="inline-block w-8 h-8 text-yellow-400 mb-8" viewBox="0 0 975.036 975.036">
+								<path
+								d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+							</svg>
+							<p class="leading-relaxed text-lg">Edison bulb retro cloud bread echo park, helvetica stumptown
+							taiyaki
+							taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+							bag
+							drinking
+							vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book
+							skateboard
+							four
+							loko knausgaard. Kitsch keffiyeh master cleanse direct trade primary juice before they sold
+							out
+							gentrify
+							plaid gastropub normcore XOXO 90's pickled cprimary jean shorts. Slow-carb next level
+							shoprimaryitch
+							ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+							<span class="inline-block h-1 w-10 rounded bg-yellow-400 mt-8 mb-6"></span>
+							<h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">
+							persona
+						</h2>
+							<p class="text-gray-500">Elisabetn Beneth</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+							class="inline-block w-8 h-8 text-yellow-400 mb-8" viewBox="0 0 975.036 975.036">
+								<path
+								d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+							</svg>
+							<p class="leading-relaxed text-lg">Edison bulb retro cloud bread echo park, helvetica
+							stumptown taiyaki
+							taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY
+							tote bag
+							drinking
+							vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book
+							skateboard
+							four
+							loko knausgaard. Kitsch keffiyeh master cleanse direct trade primary juice before they
+							sold out
+							gentrify
+							plaid gastropub normcore XOXO 90's pickled cprimary jean shorts. Slow-carb next level
+							shoprimaryitch
+							ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+							<span class="inline-block h-1 w-10 rounded bg-yellow-400 mt-8 mb-6"></span>
+							<h2 class="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">persona
+						</h2>
+							<p class="text-gray-500">Elisabetn Beneth</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+	
+
+				
+					<footer class="text-gray-600 body-font border-t border-gray-100">
+  <div class="container px-5 pt-32 mx-auto">
+    <div class="flex flex-wrap md:text-left text-center order-first">
+      <div class="lg:w-2/5 md:w-2/3 w-full px-0.5 relative -top-14">
+        <img alt="ecommerce" class="w-full max-w-sm lg:h-auto object-cover object-center rounded" 
+          src="/assets/img/gospel-jam_hero_coloured.png"
+          >
+        <div class="flex flex-wrap justify-center items-end md:justify-start">
+          <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+            <label for="footer-field" class="leading-7 text-sm text-gray-700 font-medium uppercase pl-0.5">Subscribe</label>
+            <input placeholder="johndoe@gmail.com" type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-primary-200 focus:border-primary-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <button class="inline-flex text-white bg-primary-500 border-0 py-2 px-6 focus:outline-none hover:bg-primary-600 rounded">
+          Submit
+          </button>
+          <p class="text-gray-500 text-sm mt-2 sm:text-left text-center w-full">
+          Bitters chicharrones fanny pack
+            <br class="lg:block hidden">waistcoat green juice
+          </p>
+        </div>
+      </div>
+      <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-100">
+    <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="p-1 text-xl font-black leading-none text-white select-none uppercase">
+          <span class="text-gray-800">Gospel</span>
+          <span class="text-yellow-400">
+						.
+						jam
+					</span>
+        </span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2021 Gospel Jam —
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">
+        @gospeljam
+        </a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+				
+			</div>
+		</div>
+
+		<div class="hidden py-3 block w-10 h-10 rounded-full border "></div>
+	</body>
+
+</html>
