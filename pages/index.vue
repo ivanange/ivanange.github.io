@@ -17,7 +17,7 @@
 
                 <p class="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10">
                     Hi, I’m Ivan. Software engineer and AI researcher.
-                    Sorry for the poor design, it's an <i class="font-light">"on the go"</i> version of the site, as a
+                    Sorry for the poor design, it's an <i class="font-light">"on the go"</i> version of the site. As a
                     detailed oriented
                     perfectionist, I don't usually deploy such but I'm learning to accept that most things:
                     myself, most of my projects, this site are continuous WIP (but it should be far better by the end of
@@ -32,7 +32,7 @@
             </div>
 
             <div class="mx-auto lg:mx-0 p-4">
-                <img class="max-w-sm h-auto object-cover object-center rounded-lg rotate-3" src="me.jpg" alt="Image">
+                <img class="max-w-sm h-auto object-cover object-center rounded-lg rotate-3" src="/me.jpg" alt="Image">
             </div>
         </header>
         <div class="container max-w-screen-xl mx-auto px-4 pt-16">
