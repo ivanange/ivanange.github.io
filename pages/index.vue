@@ -51,11 +51,30 @@
                         <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">01</h1>
                         <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
                         <div>
-                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5 capitalize">Nude detector
+                            <h1
+                                class="font-normal text-gray-700 text-3xl md:text-4xl mb-5 capitalize flex items-center">
+                                Nude detector
+                                <a class="inline-block pl-2 text-gray-300" href="http://nudedetector.ivanange.dev/"
+                                    target="_blank" title="Nude detector">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="h-8">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                    </svg>
+                                </a>
                             </h1>
                             <p class="font-normal text-gray-500 text-sm md:text-base">
-                                This project is based on my master thesis work, focused on invalid content detection on
-                                small datasets.
+                                This project is based on my master thesis work, aimed at invalid content detection
+                                (nudity) on small datasets in a context of low computing resources. We casted our
+                                problem to survival analysis and built a survivalSVM model that predicts survival times
+                                that express the degree of nudity in the image, then a dynamically calculated threshold
+                                based on
+                                training set is used to determine if the image is valid. We were able to reach an
+                                F-score of <b>0.87</b>.
+                                While it's being integrated to YowYob platform, I made a flask API and a web
+                                <a class="text-gray-400 underline" href="http://nudedetector.ivanange.dev/"
+                                    target="_blank">playground</a>
+                                you can tinker with.
                             </p>
                         </div>
                     </div>
