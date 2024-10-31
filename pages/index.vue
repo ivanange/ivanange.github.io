@@ -81,6 +81,33 @@
                 </div>
             </div>
         </div>
+        <div class="container max-w-screen-xl mx-auto px-4 pt-16">
+            <div class="flex flex-col lg:flex-row justify-between ">
+                <div class="mb-10 lg:mb-0 w-5/12">
+                    <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Research</h1>
+
+                    <p class="font-normal text-gray-500 text-xs md:text-base">
+                        Reject count, because it matters too.
+                    </p>
+                </div>
+
+                <div class="space-y-24 w-7/12">
+                    <div class="flex space-x-6">
+                        <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">01</h1>
+                        <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                        <div>
+                            <h1
+                                class="font-normal text-gray-700 text-3xl md:text-4xl mb-5 capitalize flex items-center">
+                                Survival SVM model for adult content detection
+                            </h1>
+                            <p class="font-normal text-gray-500 text-sm md:text-base">
+                                IEEE journal (x1), CRI Conference (x1)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 <script setup lang="ts">
