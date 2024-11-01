@@ -27,7 +27,7 @@
                 <hr class="text-gray-500 mb-5">
 
                 <span class="font-normal text-gray-500 text-sm">
-                    I am currently open for work.
+                    I am currently open for research work.
                 </span>
             </div>
 
